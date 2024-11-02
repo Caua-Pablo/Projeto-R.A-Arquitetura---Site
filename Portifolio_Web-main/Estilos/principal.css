@@ -1,0 +1,482 @@
+
+/*Globais*/
+
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(78, 157, 231);
+    --cor-primaria: rgb(231, 241, 236);
+    --cor-text: rgb(0, 0, 0);
+
+}
+
+.referencia h3{
+color: aliceblue;
+}
+.referencia{
+    background-color: #333;
+}
+.referencia{
+    margin-top: 120px;
+    color: #000000;
+}
+
+.referencia ul{
+    color: #000000;
+    text-align: center;
+}
+.referencia li{
+    color: #000000;
+text-align: center;
+
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+    /* Ajuste para dispositivos com largura máxima de 600 pixels (celulares, por exemplo) */
+    .card {
+        width: 30%; /* Ocupar a largura total da tela */
+    }
+
+}
+
+
+
+.card-container {
+    text-align: center; /* Alinhar o conteúdo ao centro na vertical */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 30%; /* Defina a largura desejada para cada div */
+    margin: 10px; /* Adicione margens para espaçamento entre as divs */
+    margin-top: 50px;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+.card{
+    width: 300px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.card img{
+    display: block;
+    margin: 0 auto;
+    
+}
+.card-content h3{
+font-size: 28px;
+margin-bottom: 8px;
+}
+.card-content p{
+    color: #2e2c2c;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+
+
+
+.logomarca {
+   text-align: center;
+   margin-top: -90px;
+}
+
+body {
+    color: #333;
+}
+
+
+.veja_blogs{
+   text-align: center;
+   margin-top: 150px;
+   font-weight: normal;
+   margin-bottom: 0.5em;
+    
+}
+
+
+
+/* Estilos opcionais para o conteúdo das divs */
+.blog1 img,
+.blog2 img,
+.blog3 img {
+  max-width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+  border: 1px solid rgb(146, 114, 114); /* Adicione uma borda preta de 1px às imagens */
+}
+
+.blog1 h3,
+.blog2 h3,
+.blog3 h3 {
+    font-size: 16px; /* Tamanho da fonte do título */
+
+} 
+
+
+
+.menu{
+    list-style: none;
+    padding: 100px;
+    margin-top: -5%;
+    text-align: center; /* Centraliza horizontalmente */
+  }
+
+.menu ul {
+    list-style-type: none;
+    position: static;
+    background-color: var(--cor-fundo);
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+display: block;
+}
+
+
+/*Código da página principal */
+.titulo h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.imagem_pessoal img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Sobre h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.Sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+.sobre_o_que h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.sobre_o_que p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+    padding: 15px 10% 5px;
+	text-align: center;
+	margin-top: 400px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+.gmaail {
+    padding: 0px;
+    font-size: 33px;
+    width: 40px;
+   
+
+}
+  
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 0px;
+    font-size: 40px;
+    width: 60px;
+   
+}
+
+.fa-github {
+    background: #520a7c;
+    color: white;
+    padding: 0px;
+    font-size: 40px;
+    width: 60px;
+   
+}
+
+
+
+
+
+
+
+
+.Sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+.titulo h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+
+.conteudo_n1 h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.conteudo_n1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+
+.conteudo_n2 h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+}
+
+.conteudo_n2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+}
+
+
+.titulo_h1{
+    text-align: center;
+}
+
+
+
+
+.testelinha input {
+    display: inline;
+    margin-right: 30px
+    }
+    
+    .testelinha {
+    margin-bottom: 30px;
+    }
+
+
+
+.contato_h1{
+text-align: center;
+
+}
+
+.container_contato {
+    text-align: left;
+    max-width: 1000px;
+    padding: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 80px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+
+
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+.col {
+    flex: 1;
+}
